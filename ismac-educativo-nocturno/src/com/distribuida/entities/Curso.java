@@ -1,10 +1,24 @@
 package com.distribuida.entities;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+@Table(name= "curso")
+@Component
 public class Curso {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "idCurso")
 	private int idCurso;
+	@Column(name = "nombreCurso")
 	private String nombreCurso;
+	@Column(name = "numCurso")
 	private String numCurso;
+	@Column(name = "horas")
 	private String horas;
+	@Column(name = "departamento")
 	private String departamento;
 	
 	public Curso() {}

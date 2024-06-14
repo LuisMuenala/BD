@@ -12,12 +12,12 @@ import javax.persistence.Table;
 import org.springframework.stereotype.Component;
 
 @Entity
-@Table(name= "estudinates")
+@Table(name= "estudiantes")
 @Component
 public class Estudiantes {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id_cliente")
+	@Column(name = "idEstudiantes")
 	private int idEstudiantes;
 	@Column(name = "nombre")
 	private String nombre;

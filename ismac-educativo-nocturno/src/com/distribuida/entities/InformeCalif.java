@@ -6,7 +6,9 @@ package com.distribuida.entities;
 public class InformeCalif {
 	private int idInformeCalif;
 	private String numEstudiante;
-	private String nSeccion;
+	//private String nSeccion;
+	private Seccion seccion;
+	
 	private String nota;
 	
 	public InformeCalif(){}

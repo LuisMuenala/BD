@@ -20,7 +20,7 @@ public class EstudiantesDAOImpl implements EstudiantesDAO {
 	}
 
 	@Override
-	public Autor findOne(int id) {
+	public Estudiantes findOne(int id) {
 		return null;
 		
 	}
@@ -28,12 +28,12 @@ public class EstudiantesDAOImpl implements EstudiantesDAO {
 	
 
 	@Override
-	public void add(Autor autor){
+	public void add(Estudiantes autor){
 
 	}
 
 	@Override
-	public void up(Autor Autor) {
+	public void up(Estudiantes Autor) {
 		// TODO Auto-generated method stub
 
 	}
