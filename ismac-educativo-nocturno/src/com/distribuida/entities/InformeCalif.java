@@ -12,10 +12,9 @@ public class InformeCalif {
 	private String nota;
 	
 	public InformeCalif(){}
-	public InformeCalif(int idInformeCalif, String numEstudiante, String nSeccion, String nota) {
+	public InformeCalif(int idInformeCalif, String numEstudiante, String nota) {
 		this.idInformeCalif = idInformeCalif;
 		this.numEstudiante= numEstudiante;
-		this.nSeccion= nSeccion;
 		this.nota= nota;
 		
 	}
@@ -31,12 +30,8 @@ public class InformeCalif {
 	public void setNumEstudiante(String numEstudiante) {
 		this.numEstudiante = numEstudiante;
 	}
-	public String getnSeccion() {
-		return nSeccion;
-	}
-	public void setnSeccion(String nSeccion) {
-		this.nSeccion = nSeccion;
-	}
+	
+	
 	public String getNota() {
 		return nota;
 	}
@@ -46,7 +41,7 @@ public class InformeCalif {
 	@Override
 	public String toString() {
 		return "InformeCalif [idInformeCalif=" + idInformeCalif + ", numEstudiante=" + numEstudiante + ", nSeccion="
-				+ nSeccion + ", nota=" + nota + "]";
+				 + ", nota=" + nota + "]";
 	}
 	
 }

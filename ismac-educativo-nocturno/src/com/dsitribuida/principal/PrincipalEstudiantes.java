@@ -18,11 +18,11 @@ public class PrincipalEstudiantes {
 		//Patron de IoC - inversion de control
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");//clase infraestructura de software
 		
-		EstudiantesDAO clienteDAO = context.getBean("clienteDAOImpl", EstudiantesDAO.class);
+		EstudiantesDAO estudiantesDAO = context.getBean("estudiantesDAOImpl", EstudiantesDAO.class);
 		//find all
 		//control de inversion 
-		List<Estudiantes> estudiante = EstudiantesDAO.findAll();
-		Estudiantes.forEach(item -> {
+		List<Estudiantes> estudiantes = estudiantesDAO.findAll();
+		estudiantes.forEach(item -> {
 			System.out.println(item.toString());
 			
 		});
