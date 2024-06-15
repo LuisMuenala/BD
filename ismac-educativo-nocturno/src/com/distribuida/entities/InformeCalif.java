@@ -9,6 +9,7 @@ public class InformeCalif {
 	//private String nSeccion;
 	private Seccion seccion;
 	
+	
 	private String nota;
 	
 	public InformeCalif(){}
