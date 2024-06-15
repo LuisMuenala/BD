@@ -18,7 +18,7 @@ public class CursoDAOImpl implements CursoDAO {
 	
 	
 	@Override
-	@Transactional
+	@Transactional 
 	public List<Curso> findAll() {
 		// TODO Auto-generated method stub
 		Session session = sessionFactory.getCurrentSession();

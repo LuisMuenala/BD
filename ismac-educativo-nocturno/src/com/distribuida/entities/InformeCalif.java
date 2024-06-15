@@ -7,7 +7,9 @@ public class InformeCalif {
 	private int idInformeCalif;
 	private String numEstudiante;
 	//private String nSeccion;
+	//dimensiones
 	private Seccion seccion;
+	private Estudiantes estudiantes;
 	
 	
 	private String nota;

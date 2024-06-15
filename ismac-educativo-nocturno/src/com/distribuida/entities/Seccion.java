@@ -8,6 +8,8 @@ public class Seccion {
 	private String año;
 	private String profesor;
 	
+	private Curso curso;
+	
 	public Seccion() {}
 	public Seccion(int idSeccion, String nSeccion, String numCurso, String semestre, String año, String profesor) {
 		this.idSeccion = idSeccion;
