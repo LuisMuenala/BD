@@ -3,10 +3,6 @@ package com.dsitribuida.principal;
 import java.util.List;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import javax.persistence.Entity;
-
-
-import com.distribuida.dao.EstudiantesDAO;
 import com.distribuida.dao.EstudiantesDAO;
 import com.distribuida.entities.Estudiantes;
 
